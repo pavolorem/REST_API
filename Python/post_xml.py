@@ -8,7 +8,7 @@ url = ""
 headers = {"content-type" : "text/xml"}
 
 a_np = np.data = """
-		 <azure:Movie><azure:ID>1</azure:ID><azure:name>Who's That Knocking at My Door?</azure:name><azure:insert_date>2011-01-01</azure:insert_date><azure:obtain_price>1123338</azure:obtain_price><azure:quantity>15</azure:quantity><azure:room_ID>1</azure:room_ID><azure:actorID>AA</azure:actorID>
+<azure:Movie><azure:ID>1</azure:ID><azure:name>Who's That Knocking at My Door?</azure:name><azure:insert_date>2011-01-01</azure:insert_date><azure:obtain_price>1123338</azure:obtain_price><azure:quantity>15</azure:quantity><azure:room_ID>1</azure:room_ID><azure:actorID>AA</azure:actorID>
     </azure:Movie>
 <azure:Movie><azure:ID>2</azure:ID><azure:name>Designated Mourner</azure:name><azure:insert_date>2011-01-02</azure:insert_date><azure:obtain_price>1123338</azure:obtain_price><azure:quantity>7</azure:quantity><azure:room_ID>2</azure:room_ID><azure:actorID>AA</azure:actorID>
     </azure:Movie>
@@ -2008,7 +2008,7 @@ a_np = np.data = """
     </azure:Movie>
 <azure:Movie><azure:ID>1000</azure:ID><azure:name>Green Wave</azure:name><azure:insert_date>2013-09-26</azure:insert_date><azure:obtain_price>1123338</azure:obtain_price><azure:quantity>2</azure:quantity><azure:room_ID>4</azure:room_ID><azure:actorID>AA</azure:actorID>
     </azure:Movie>
-   </soapenv:Body>
+    </soapenv:Body>
 </soapenv:Envelope>
 """
 
